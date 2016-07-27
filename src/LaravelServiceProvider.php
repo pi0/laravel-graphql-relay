@@ -2,6 +2,7 @@
 
 namespace Nuwave\Relay;
 
+use League\Flysystem\Exception;
 use Nuwave\Relay\Schema\GraphQL;
 use Nuwave\Relay\Commands\FieldMakeCommand;
 use Nuwave\Relay\Commands\MutationMakeCommand;
@@ -66,7 +67,11 @@ class LaravelServiceProvider extends BaseProvider
     protected function registerSchema()
     {
         if (config('relay.schema.path')) {
-            require_once app_path(config('relay.schema.path'));
+            try {
+                include_once app_path(config('relay.schema.path'));
+            }catch (\Exception $e){
+                // TODO
+            }
         }
 
         $this->registerRelayTypes();

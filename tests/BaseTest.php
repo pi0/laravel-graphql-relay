@@ -63,7 +63,7 @@ abstract class BaseTest extends \Orchestra\Testbench\TestCase
                 'path' => 'schema/schema.php',
                 'queries' => [
                     'node' => \Nuwave\Relay\Node\NodeQuery::class,
-                    'humanByName' => \Nuwave\Relay\Tests\Assets\Queries\HumanByName::class,
+                    //'humanByName' => \Nuwave\Relay\Tests\Assets\Queries\HumanByName::class,
                 ],
                 'mutations' => [],
                 'types' => [
