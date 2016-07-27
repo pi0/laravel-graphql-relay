@@ -1,6 +1,12 @@
-# laravel-graphql-relay #
+# laravel-graphql-relay
 
-_An active fork of [nuwave/laravel-graphql-relay](https://github.com/nuwave/laravel-graphql-relay)_   
+[![Travis](https://img.shields.io/travis/pi0/laravel-graphql-relay.svg?maxAge=2592000)](https://travis-ci.org/pi0/laravel-graphql-relay.svg?branch=master)
+[![Packagist](https://img.shields.io/packagist/l/fandogh/laravel-graphql-relay.svg?maxAge=2592000)](https://packagist.org/packages/fandogh/laravel-graphql-relay)
+[![Packagist](https://img.shields.io/packagist/v/fandogh/laravel-graphql-relay.svg?maxAge=2592000)](https://packagist.org/packages/fandogh/laravel-graphql-relay)
+[![Packagist](https://img.shields.io/packagist/dt/fandogh/laravel-graphql-relay.svg?maxAge=2592000)](https://packagist.org/packages/fandogh/laravel-graphql-relay)
+
+_an active fork of [nuwave/laravel-graphql-relay](https://github.com/nuwave/laravel-graphql-relay)_   
+
 Use Facebook [GraphQL](http://facebook.github.io/graphql/) with [React Relay](https://facebook.github.io/relay/).
 This package extends graphql-php to work with Laravel and is currently **a work in progress**.
 You can reference what specifications GraphQL needs to provide to work with Relay in the [documentation](https://facebook.github.io/relay/docs/graphql-relay-specification.html#content).
