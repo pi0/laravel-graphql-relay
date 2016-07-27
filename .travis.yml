@@ -7,4 +7,4 @@ install:
     - composer install --prefer-dist
 
 script:
-    - ./bin/phpunit tests/
+    - phpunit tests/
