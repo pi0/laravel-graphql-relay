@@ -1,5 +1,5 @@
 {
-    "name": "laravel-graphql-relay",
+    "name": "laravel/graphql-relay",
     "description": "Adds relay specifications to laravel graphql server",
     "keywords": ["laravel", "relay", "graphql", "react"],
     "type": "library",
