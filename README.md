@@ -16,14 +16,14 @@ You must then modify your composer.json file and run composer update to include 
 
 ```php
 "require": {
-    "pooya/laravel-graphql-relay": "0.3.*"
+    "fandogh/laravel-graphql-relay": "0.3.*"
 }
 ```
 
 Or you can use the composer require command from your terminal.
 
 ```bash
-composer require pooya/laravel-graphql-relay
+composer require fandogh/laravel-graphql-relay
 ```
 
 Add the service provider to your ```config/app.php``` file
