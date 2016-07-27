@@ -1,10 +1,14 @@
-# laravel-grapql-relay #
+# laravel-graphql-relay #
 
-Use Facebook [GraphQL](http://facebook.github.io/graphql/) with [React Relay](https://facebook.github.io/relay/). This package extends graphql-php to work with Laravel and is currently **a work in progress**. You can reference what specifications GraphQL needs to provide to work with Relay in the [documentation](https://facebook.github.io/relay/docs/graphql-relay-specification.html#content).
+_An active fork of [nuwave/laravel-graphql-relay](https://github.com/nuwave/laravel-graphql-relay)_   
+Use Facebook [GraphQL](http://facebook.github.io/graphql/) with [React Relay](https://facebook.github.io/relay/).
+This package extends graphql-php to work with Laravel and is currently **a work in progress**.
+You can reference what specifications GraphQL needs to provide to work with Relay in the [documentation](https://facebook.github.io/relay/docs/graphql-relay-specification.html#content).
 
-Although this package no longer depends on [laraval-graphql](https://github.com/Folkloreatelier/laravel-graphql), it laid the foundation for this package which likely wouldn't exist without it. It is also a great alternative if you are using GraphQL w/o support for Relay.
+Although this package no longer depends on [laravel-graphql](https://github.com/Folkloreatelier/laravel-graphql), it laid the foundation for this package which likely wouldn't exist without it. It is also a great alternative if you are using GraphQL w/o support for Relay.
 
-Because this package is still in the early stages, breaking changes will occur. We will keep the documentation updated with the current release. Please feel free to contribute, PR are absolutely welcome!
+Because this package is still in the early stages, breaking changes will occur.
+We will keep the documentation updated with the current release. Please feel free to contribute, PR are absolutely welcome!
 
 ### Installation ###
 
@@ -12,14 +16,14 @@ You must then modify your composer.json file and run composer update to include 
 
 ```php
 "require": {
-    "nuwave/laravel-graphql-relay": "0.3.*"
+    "pooya/laravel-graphql-relay": "0.3.*"
 }
 ```
 
 Or you can use the composer require command from your terminal.
 
 ```bash
-composer require nuwave/laravel-graphql-relay
+composer require pooya/laravel-graphql-relay
 ```
 
 Add the service provider to your ```config/app.php``` file
